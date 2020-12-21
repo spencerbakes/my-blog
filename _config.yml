@@ -20,13 +20,27 @@
 
 title: My Blog
 email: contact@spencerbakes.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means sto ignore newlines until "baseurl:"
   Welcome to my awesome blog.
   Enjoy your stay.
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://spencerbakes.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spencerbakes
-github_username:  spencerbakes
+github_username: spencerbakes
+
+# Fields minima uses, but not defaulted
+# Author default for posts, feed, and footer
+author: Spencer Baker
+linkedin_username: spencerbbaker
+instagram_username: spencerbakes
+
+# New fields not defaulted
+# Adding a copyright with symbol and year
+copyright: "Spencer Baker"
+
+# New field for logo instead of text
+# 50px height is ideal
+title-logo: /images/title-logo.png
 
 # Build settings
 # Removed minima, now regular theme
